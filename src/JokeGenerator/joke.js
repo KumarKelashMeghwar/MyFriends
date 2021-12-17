@@ -16,7 +16,7 @@ const getJoke = () => {
         console.log(err);
     })
     if(jokeText){
-        document.querySelector('.main-joke').innerHTML=jokeText;
+        document.querySelector('.joke-text').innerHTML=jokeText;
     }
 }
 
@@ -26,14 +26,15 @@ const Joke = () => {
     getJoke()
     
     return (
-        <div>
-            <div className="card">
-                <script>getJoke();</script>
-                <h4 className='joke-heading'>Jokes Generator </h4>
-                <span className="main-joke"></span>
-                <div className="next-btn" onClick={ ()=>{  getJoke(); document.querySelector(".next-btn").innerHTML = "Next";}  }>Generate</div>
-            </div>
+    <>
+        <div className="container">
+            <h4 className='joke-headline'>Jokes Generator </h4>
+            <span className="joke-text"></span>
+            <div className="next-btn" onClick={ ()=>{  getJoke(); document.querySelector(".next-btn").innerHTML = "Next";}  }>Generate</div>
         </div>
+        
+    </>
+
     )
 }
 

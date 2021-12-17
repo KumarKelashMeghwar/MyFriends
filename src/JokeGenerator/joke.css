@@ -3,32 +3,45 @@
   margin: 0;
   box-sizing: border-box;
 }
-
 body {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   height: 90vh;
   font-family: sans-serif;
 }
-
-.card {
-  width: 600px;
-  height: 400px;
+.container {
   display: flex;
-  flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.6);
+  flex-direction: column;
+  height: 400px;
+  min-width: 300px;
+  max-width: 600px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.7);
+  padding: 10px 40px;
+  margin: 10px 40px;
+}
+.next-btn {
+  padding: 15px 35px;
+  background-color: pink;
   border-radius: 10px;
-  padding: 10px 30px;
+  cursor: pointer;
+  transition: all 0.8s ease;
 }
 
-.next-btn {
-  padding: 15px 45px;
-  background-color: rgb(235, 57, 117);
-  cursor: pointer;
-  color: #fff;
-  border-radius: 10px;
+.joke-headline {
+  color: orange;
+}
+
+.joke-text {
+  font-size: 20px;
+  letter-spacing: 0.4px;
+  color: purple;
+  line-height: 30px;
+}
+.next-btn:hover {
+  transform: scale(0.9, 0.95);
 }

@@ -1,9 +1,9 @@
-import Joke from './JokeGenerator/joke.js';
+import MyCountry from './MyCountry/MyCountry'
 
 const App = ()=> {
   return(
     <div>
-      <Joke/>
+      <MyCountry/>
     </div>
   );
   
@@ -12,4 +12,3 @@ const App = ()=> {
 
 export default App;
 
-// https://icanhazdadjoke.com/api.
