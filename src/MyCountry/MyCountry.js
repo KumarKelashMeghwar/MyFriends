@@ -1,25 +1,24 @@
-import React, {useState} from 'react'
+import React from 'react'
 import './MyCountry.css'
 
 
 const MyCountry = () => {
 
-    let [state, setstate] = useState([]);
+   
 
-    const getData = async () => {
-        const res = await fetch("https://restcountries.com/v3.1/name/pakistan");
+   const getData = async () => {
+    
+        const res = await fetch(`https://restcountries.com/v3.1/name/pakistan`);
         const resData = await res.json();
-        state = resData;
+       
         document.querySelector(".flag").src = resData[0].flags.png.toString();
         document.querySelector(".population").innerHTML = resData[0]['population']; 
         document.querySelector(".capitalName").innerHTML = (resData[0]['capital'])[0];
         document.querySelector(".nationalLang").innerHTML = resData[0]['languages']['urd'];
         document.querySelector(".name").innerHTML = resData[0]['name'].common;
-        console.log(state);
     }
 
     setTimeout(getData,10);
-
 
     return (
         <>

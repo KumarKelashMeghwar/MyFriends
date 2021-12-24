@@ -1,14 +1,18 @@
-import MyCountry from './MyCountry/MyCountry'
+import React from 'react';
+import Card from './Areactwebsite/card';
+
 
 const App = ()=> {
   return(
-    <div>
-      <MyCountry/>
-    </div>
+    <>
+      <h2>My Gorgeous Friends</h2>
+      <div className='container'>
+        <Card/>
+      </div>
+    </>
   );
   
 }
-
 
 export default App;
 
