@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/MyFriends/static/css/main.9d410143.chunk.css",
+    "main.js": "/MyFriends/static/js/main.f618fc4c.chunk.js",
+    "main.js.map": "/MyFriends/static/js/main.f618fc4c.chunk.js.map",
+    "runtime-main.js": "/MyFriends/static/js/runtime-main.0e7a7ace.js",
+    "runtime-main.js.map": "/MyFriends/static/js/runtime-main.0e7a7ace.js.map",
+    "static/js/2.3d8b9bb8.chunk.js": "/MyFriends/static/js/2.3d8b9bb8.chunk.js",
+    "static/js/2.3d8b9bb8.chunk.js.map": "/MyFriends/static/js/2.3d8b9bb8.chunk.js.map",
+    "index.html": "/MyFriends/index.html",
+    "static/css/main.9d410143.chunk.css.map": "/MyFriends/static/css/main.9d410143.chunk.css.map",
+    "static/js/2.3d8b9bb8.chunk.js.LICENSE.txt": "/MyFriends/static/js/2.3d8b9bb8.chunk.js.LICENSE.txt",
+    "static/media/Kelash.2795cea5.jpg": "/MyFriends/static/media/Kelash.2795cea5.jpg",
+    "static/media/kailash.9f2466e6.jpg": "/MyFriends/static/media/kailash.9f2466e6.jpg",
+    "static/media/kumar.cbce7cc9.jpg": "/MyFriends/static/media/kumar.cbce7cc9.jpg",
+    "static/media/myownImage.6057fe81.jpg": "/MyFriends/static/media/myownImage.6057fe81.jpg",
+    "static/media/mypic.929c8091.jpg": "/MyFriends/static/media/mypic.929c8091.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0e7a7ace.js",
+    "static/js/2.3d8b9bb8.chunk.js",
+    "static/css/main.9d410143.chunk.css",
+    "static/js/main.f618fc4c.chunk.js"
+  ]
+}
